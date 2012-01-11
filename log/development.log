@@ -1,0 +1,2377 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-11-02 17:56:10 -0400
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.3ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2011-11-02 17:56:16 -0400
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (30.4ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.8ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2011-11-02 17:56:56 -0400
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2011-11-02 17:57:22 -0400
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2011-11-02 19:45:48 -0400
+
+Mysql2::Error (Unknown database 'simple_cms_development'):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2011-11-02 20:11:25 -0400
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (35.6ms)
+Compiled application.css  (1ms)  (pid 73638)
+Compiled demo.css  (9ms)  (pid 73638)
+Compiled application.js  (6ms)  (pid 73638)
+Compiled jquery.js  (2ms)  (pid 73638)
+Compiled jquery_ujs.js  (0ms)  (pid 73638)
+Compiled demo.js  (147ms)  (pid 73638)
+Completed 200 OK in 329ms (Views: 329.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-02 20:11:26 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2011-11-02 20:11:26 -0400
+Served asset /demo.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-02 20:11:26 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-02 20:11:26 -0400
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2011-11-02 20:11:26 -0400
+Served asset /demo.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-02 20:11:26 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-05 19:00:28 -0500
+
+Mysql2::Error (Access denied for user 'simple_cms'@'localhost' (using password: YES)):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-05 19:22:09 -0500
+
+Mysql2::Error (Access denied for user 'simple_cms'@'localhost' (using password: YES)):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-05 21:23:17 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 65ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-05 21:23:18 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-05 21:23:18 -0500
+Served asset /demo.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-05 21:23:18 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-05 21:23:18 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-05 21:23:18 -0500
+Served asset /demo.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-05 21:23:18 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-05 22:05:16 -0500
+Served asset /rails.png - 200 OK (3ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-05 22:06:33 -0500
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-05 22:06:57 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-05 22:06:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-05 22:06:58 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-05 22:06:58 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-05 22:06:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-05 22:06:58 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-05 22:06:58 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-05 22:07:20 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-05 22:07:20 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-05 22:07:20 -0500
+Served asset /demo.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-05 22:07:20 -0500
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-05 22:07:20 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-05 22:07:20 -0500
+Served asset /demo.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-05 22:07:20 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2012-01-06 13:04:48 -0500
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2012-01-06 13:05:07 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 46ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:05:07 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:05:07 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:07 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:07 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:07 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:07 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:05:36 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:05:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:05:36 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:36 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:05:49 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:05:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:05:49 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:49 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:05:49 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:13:26 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:13:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:13:27 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:13:27 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:13:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:13:27 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:13:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:14:14 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 50ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:14:15 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:14:15 -0500
+Served asset /demo.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:15 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:15 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:15 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:14:20 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:14:20 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:14:20 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:20 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:20 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:14:25 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:14:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:14:25 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:25 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:14:25 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:16:53 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:16:54 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:16:54 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:54 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:54 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:16:57 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:16:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:16:57 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:57 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:57 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:16:59 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:16:59 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:16:59 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:59 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:16:59 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:17:10 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:10 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:10 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:10 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:10 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:17:12 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:12 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:12 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:12 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:17:21 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:21 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:21 -0500
+Served asset /demo.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:21 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:21 -0500
+Served asset /demo.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:21 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:21 -0500
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:17:48 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:48 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:17:48 -0500
+Served asset /demo.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:48 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:48 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:17:48 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:18:44 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/hello.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 51ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:18:45 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:18:45 -0500
+Served asset /demo.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:18:45 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:18:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:18:45 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:18:45 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:26:33 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/hello.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:26:34 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:26:34 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:26:34 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:26:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:26:34 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:26:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:26:40 -0500
+  Processing by DemoController#hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:28:26 -0500
+  Processing by DemoController#hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:28:28 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/hello.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:28:28 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:28:28 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:28:28 -0500
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:28:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:28:28 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:28:28 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 13:49:00 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/hello.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:49:00 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:49:00 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:00 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:00 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:00 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:49:14 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:49:14 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:49:14 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:14 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:49:14 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:49:19 -0500
+  Processing by DemoController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+SystemStackError (stack level too deep):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.3ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:51:18 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:51:18 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:51:18 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:51:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:51:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:51:18 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:51:18 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:51:30 -0500
+  Processing by DemoController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+SystemStackError (stack level too deep):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.3ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:54:34 -0500
+  Processing by DemoController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+SystemStackError (stack level too deep):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:58:38 -0500
+  Processing by DemoController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+SystemStackError (stack level too deep):
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.8ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 13:59:33 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:59:34 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:59:34 -0500
+Served asset /demo.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:34 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:34 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-06 13:59:44 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 13:59:52 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 13:59:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 13:59:52 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:52 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 13:59:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-06 14:13:07 -0500
+  Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 1ms
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-06 14:13:07 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 37ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-06 14:14:59 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 14:15:02 -0500
+  Processing by DemoController#hello as HTML
+Redirected to http://www.lynda.com
+Completed 302 Found in 0ms
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 18:12:37 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 18:12:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 18:12:38 -0500
+Served asset /demo.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 18:12:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 18:12:38 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 18:12:38 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 18:12:38 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 23:34:08 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 23:34:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 23:34:08 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 23:34:08 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 23:34:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 23:34:08 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 23:34:08 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 23:35:03 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 23:35:04 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 23:35:04 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 23:35:04 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 23:35:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 23:35:04 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 23:35:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 23:36:09 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 23:36:10 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 23:36:10 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:10 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:10 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:10 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 23:36:31 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 23:36:31 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 23:36:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:31 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 23:36:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 23:37:15 -0500
+  Processing by DemoController#hello as HTML
+ERROR: compiling _app_views_demo_hello_html_erb__3392244932376412584_70330598519320 RAISED /Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/hello.html.erb:14: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_demo_hello_html_erb__3392244932376412584_70330598519320(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "demo/hello";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Demo#hello</h1>
+<p>Hello, world!</p>
+');@output_buffer.append= ( 1 + 1 );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); target = "world" 
+@output_buffer.safe_concat('
+');@output_buffer.append= ( "Hello #{target}");@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); 
+3.times.do
+puts "xxx"
+end
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `module_eval'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `compile'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__2084288075649273071__process_action__354750251634773299__callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `block in action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered demo/hello.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (/Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/hello.html.erb:14: syntax error, unexpected keyword_ensure, expecting $end):
+    11: puts "xxx"
+    12: end
+    13: %>
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 23:37:48 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 23:37:48 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 23:37:48 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 23:37:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 23:37:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 23:37:48 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 23:37:48 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-06 23:39:24 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 23:39:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-06 23:39:24 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 23:39:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 23:39:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-06 23:39:24 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 23:39:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:36:57 -0500
+  Processing by DemoController#hello as HTML
+ERROR: compiling _app_views_demo_hello_html_erb___3701397594479592500_70165726072480 RAISED /Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/hello.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+'); @array each do |n| 
+               ^
+Function body:           def _app_views_demo_hello_html_erb___3701397594479592500_70165726072480(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "demo/hello";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Demo#hello</h1>
+<p>Hello, world!</p>
+');@output_buffer.append= ( 1 + 1 );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); target = "world" 
+@output_buffer.safe_concat('
+');@output_buffer.append= ( "Hello #{target}");@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); @array each do |n| 
+@output_buffer.append= ( n );@output_buffer.safe_concat('<br />
+'); end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `module_eval'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `compile'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__1991887706725389478__process_action__3573187986930165403__callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `block in action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered demo/hello.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (/Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/hello.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+'); @array each do |n| 
+               ^):
+    6: 
+    7: <%= "Hello #{target}"%>
+    8: 
+    9: <% @array each do |n| %>
+    10: <%= n %><br />
+    11: <% end %>
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:38:01 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 139ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /demo.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:38:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:47:38 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:47:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:47:38 -0500
+Served asset /demo.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:47:38 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:47:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:47:38 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:47:38 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:50:13 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:50:13 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:50:13 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:13 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:13 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-07 15:50:15 -0500
+  Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 0ms
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-07 15:50:15 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 15:50:17 -0500
+  Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 0ms
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-07 15:50:17 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-07 15:50:22 -0500
+  Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 0ms
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-07 15:50:22 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 15:50:25 -0500
+  Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 0ms
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-07 15:50:25 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:50:29 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:50:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:50:29 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:29 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:50:29 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-07 15:50:49 -0500
+  Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 0ms
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2012-01-07 15:50:49 -0500
+  Processing by DemoController#other_hello as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-07 15:51:24 -0500
+  Processing by DemoController#index as HTML
+ERROR: compiling _app_views_demo_index_html_erb___559331890449775068_70227527621620 RAISED /Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/index.html.erb:4: unterminated string meets end of file
+/Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/index.html.erb:4: syntax error, unexpected $end, expecting ')'
+Function body:           def _app_views_demo_index_html_erb___559331890449775068_70227527621620(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "demo/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Demo#index</h1>
+<p>Hello from the Index Page</p>
+
+');@output_buffer.append= ( link_to("Go back to the hello page',{:action=>, 'hello'}));@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `module_eval'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `compile'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__2718099617115859413__process_action__426492514173432298__callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `block in action'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/cosjef/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered demo/index.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (/Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/index.html.erb:4: unterminated string meets end of file
+/Users/cosjef/Dropbox/RoR/Lynda/simple_cms/app/views/demo/index.html.erb:4: syntax error, unexpected $end, expecting ')'):
+    1: <h1>Demo#index</h1>
+    2: <p>Hello from the Index Page</p>
+    3: 
+    4: <%= link_to("Go back to the hello page',{:action=>, 'hello'})%>
+  
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:52:35 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:35 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:35 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:35 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-07 15:52:36 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:36 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:36 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 15:52:42 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:42 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:42 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:42 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:42 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:42 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:42 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-07 15:52:43 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:43 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:43 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:43 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 15:52:43 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 15:52:43 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 16:01:22 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:01:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:01:22 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:22 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 16:01:48 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:01:48 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:01:48 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:48 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:48 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 16:01:52 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:01:52 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:01:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:52 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:01:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 16:02:12 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:02:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:02:12 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:12 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:12 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 16:02:47 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:02:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:02:47 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:47 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:02:47 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 16:04:57 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:04:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:04:57 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:04:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:04:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:04:57 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:04:57 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 16:05:58 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:05:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:05:58 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:05:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:05:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:05:58 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:05:58 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 16:06:17 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:17 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:17 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at 2012-01-07 16:06:22 -0500
+  Processing by DemoController#hello as HTML
+  Parameters: {"page"=>"5", "id"=>"20"}
+Rendered demo/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:22 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:22 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+  Processing by DemoController#index as HTML
+Rendered demo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+  Processing by DemoController#hello as HTML
+  Parameters: {"page"=>"5", "id"=>"20"}
+Rendered demo/hello.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:06:47 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at 2012-01-07 16:10:00 -0500
+  Processing by DemoController#hello as HTML
+  Parameters: {"page"=>"5", "id"=>"20"}
+Rendered demo/hello.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    3: <%= 1 + 1 %><br />
+    4: 
+    5: ID: <%= @id %><br />
+    6: Next page: <%= @page + 1 %><br />
+    7: 
+    8: <% target = "world" %>
+    9: 
+  app/views/demo/hello.html.erb:6:in `+'
+  app/views/demo/hello.html.erb:6:in `_app_views_demo_hello_html_erb__1354713425332132714_70227504219400'
+
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Users/cosjef/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at 2012-01-07 16:13:33 -0500
+  Processing by DemoController#hello as HTML
+  Parameters: {"page"=>"5", "id"=>"20"}
+Rendered demo/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:13:33 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:13:33 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:13:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:13:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:13:33 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:13:33 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2012-01-07 16:14:23 -0500
+  Processing by DemoController#hello as HTML
+Rendered demo/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-07 16:14:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2012-01-07 16:14:23 -0500
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-07 16:14:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-07 16:14:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2012-01-07 16:14:23 -0500
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-07 16:14:23 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+  [1m[36m (12.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (12.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120110035749)
+  [1m[35m (9.8ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(25), `last_name` varchar(50), `email` varchar(255) DEFAULT '' NOT NULL, `password` varchar(40), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120110035749')[0m
+  [1m[35m (0.1ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.1ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120110035749)
+  [1m[35m (0.6ms)[0m  DROP TABLE `users`
+  [1m[36m (0.5ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20120110035749'[0m
+  [1m[35m (0.1ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120110035749)
+  [1m[35m (10.7ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(25), `last_name` varchar(50), `email` varchar(255) DEFAULT '' NOT NULL, `password` varchar(40), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120110035749')[0m
+  [1m[35m (0.1ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120110035749)
+Migrating to AlterUsers (20120111013119)
+  [1m[35m (2.3ms)[0m  RENAME TABLE `users` TO `admin_users`
+  [1m[36m (10.8ms)[0m  [1mALTER TABLE `admin_users` ADD `username` varchar(25)[0m
+  [1m[35m (20.0ms)[0m  ALTER TABLE `admin_users` CHANGE `email` `email` varchar(100) DEFAULT '' NOT NULL
+  [1m[36m (0.6ms)[0m  [1mSHOW COLUMNS FROM `admin_users` LIKE 'password'[0m
+  [1m[35m (10.1ms)[0m  ALTER TABLE `admin_users` CHANGE `password` `hashed_password` varchar(40) DEFAULT NULL
+  [1m[36m (13.3ms)[0m  [1mALTER TABLE `admin_users` ADD `salt` varchar(40)[0m
+  [1m[35m (12.9ms)[0m  CREATE INDEX `index_admin_users_on_username` ON `admin_users` (`username`)
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120111013119')[0m
+  [1m[35m (0.1ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
