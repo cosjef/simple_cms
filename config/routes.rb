@@ -1,4 +1,9 @@
 SimpleCms::Application.routes.draw do
+#  get "access/menu"
+# get "access/login"
+
+match 'admin' , :to => 'access#menu'
+
  ## get "demo/index"
 root :to => "demo#index"
 
